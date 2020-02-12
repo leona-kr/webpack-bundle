@@ -19,7 +19,7 @@ module.exports = {
   },
 
   plugins: [
-    new CleanWebpackPlugin(['build']),
+    // new CleanWebpackPlugin(['build']),
     new HtmlWebpackPlugin({
       title: 'CONQUER WEBPACK V4!',
       inject: 'body',
